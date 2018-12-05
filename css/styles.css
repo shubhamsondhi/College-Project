@@ -1,0 +1,399 @@
+html{
+    
+     background-image: url("../images/hero.jpg") ;
+     background-attachment: fixed;
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+
+    padding: 0;
+   }
+
+body{
+   
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0;
+   
+}
+header{
+    color: yellow
+}
+
+h1,h3,h2{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    
+    width: 100%;
+    
+}
+ul li{
+    display: inline-block;
+list-style-type: none;
+}
+nav{
+    visibility: visible;
+  position: fixed;
+    top: -10%;
+    right: -20%;
+    
+}
+nav a{
+text-decoration: none;
+    display: inline-block;
+    color: brown;
+    font-weight: 900;
+    padding: 10px;
+    width: 80%;    
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: auto;
+    border: solid 1px silver;
+    background-color: rgba(255, 255, 255,0.5);
+}
+.transp{position: relative;
+    top:50px;
+    display: inline-block;
+    padding: 30px;
+    width: 60%; 
+    height: 30px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px silver;
+    background-color: rgba(255, 255, 255,0.5);
+    
+}
+.transp a{
+    margin: 5px;
+    color:brown;
+    text-shadow: black 0px 18px 15px ;
+    text-decoration: none;
+}
+nav a:hover{height: 35px;
+    background-color: #ff6600;
+    
+}
+h1{
+    font-weight: 900;
+
+}
+header{
+   
+    
+
+    padding-top: 5%;
+   
+   
+}
+h1
+{
+
+    margin-bottom: 20px;
+}
+header .head{
+    
+   height: 0%;
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 15%;
+    
+}
+.yellow{
+    
+    color: #ff6600;
+    background-color: rgba(250, 217, 86,1);
+}
+.white{
+    
+    color: #ff6600;
+    background-color: white;
+}
+.green{
+    
+    color: white;
+    background-color: rgba(2, 217, 86,1);
+}
+.section .extra{
+    margin-top: 70px;
+}
+.section
+{  
+    width: 100%;
+    margin: 0;
+    background-size:cover;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+    
+}
+.section h3{
+    margin-top: 30px;
+}
+.section p{
+     font-size: 0.9em;
+}
+.section .p2{
+   margin-left: auto;
+   margin-right: auto;
+    width: 600px;
+    
+}
+
+.mediumcolumn {
+	width:40%;
+	margin:1.5% 1.5%;
+	padding: 1.5%;
+	text-align: left;
+	display: inline-block;
+}
+
+
+.mediumcolumn h3 {
+	 margin: 1em 0;
+}
+
+.fullcolumn {
+	width:94%;
+	margin:1.5% 1.5%;
+	padding: 1.5%;
+	text-align: left;
+	display: inline-block;
+}
+
+
+.fullcolumn h2 {margin: 1em 0;}
+
+.form
+{ 
+    padding-top: 60px;
+    text-align: left;
+    color: black;
+}
+.form h1{color:rgba(250, 217, 86,1);
+text-align: center
+}
+.form form{
+    font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+legend{color:rgb(241,99,63);
+    
+    
+}
+fieldset{
+    border:1px solid rgba(241,99,63,0.5);
+    margin-bottom: 10px;
+}
+input[type="text"],input[type="email"],input[type="tel"]{
+    
+    width: 98%;
+    margin-bottom: 6px;
+    border: 1px solid rgba(241,99,63,0.5);
+    margin-top: 0px;
+}
+input[type="radio"],input[type="checkbox"]{height: 10px;}
+.form input[type="submit"]{
+ 
+    background-color: #f1633f;
+    border: 1px solid rgba(241,99,63,0.5);
+    color: white;
+    padding: 8px 0 8px 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.form input[type="submit"]{
+      background-color: #f1633f;
+  border: 1px solid #fe724f;
+}
+.form input[type="submit"]:hover
+{
+  
+    background-color: rgb(241,22,63);
+}
+.form select{
+   
+    margin-left: 2%;
+    font-size: 0.57em;
+   
+    padding: 0px;
+    width: 58px;
+    height: 15px;
+    padding-left: 2px;
+   
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+     border-radius: 4px;
+    border: solid 0.21px rgba(0,0,0,0.3);
+
+    
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px;}
+}
+ 
+.label {position:relative;
+}
+.label:after {
+    content:'<>';
+    font:0.67em "Consolas", monospace;
+    color:white;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:2px; top:2.5px;
+    padding:0 0 2px;
+    position:absolute;
+    pointer-events:none;
+}
+
+.label:before {
+    -moz-border-radius       : 0 4px 4px 0;
+               -webkit-border-radius    : 0 4px 4px 0;
+                border-radius           : 0 4px 4px 0;
+    content:'';
+    background-color: rgba(65,105,225,0.8);
+    right:0.5px; top:1.5px;
+    width:11px; height:15px;  
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+footer{
+    
+    background-color: rgba(250, 217, 86,1);
+    height: 50px;
+padding-top: 20px;
+     margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.gallery{
+        
+  
+    color: black;
+    
+}
+.containor{
+    color: black;
+    background-color: rgba(255, 255, 255,0.9);
+    margin:8em auto;
+    padding:1em 0 0 0 ;
+    width: 80%;
+    border: silver solid 2px;
+    
+}
+
+.sm-box{
+    display: inline-block;
+    border: black solid 1px;
+    height: 15em;
+    width: 14em;
+    padding: 1em 0 0 0;
+    margin: 1em;
+    
+}.sm-box a{
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+.sm-box img{
+    height: 10em;
+    width:10em;
+}
+
+.col{
+    vertical-align: middle;
+    display: inline-block;
+    width: 48%;
+   text-align:left;
+}
+
+
+/****************************
+TABLET (SIMPLE)(767px max)
+****************************/
+
+
+@media only screen and (min-width:20.625em) {
+    nav{
+        margin-right: 3%;
+    }
+   
+    nav a{
+  // color: white;
+        margin-left: 20%;
+    }
+    
+    
+.sm-box{
+    display: inline-block;
+    border: black solid 1px;
+    height: 11em;
+    width: 10em;
+    padding: 1em 0 0 0;
+    margin: 1em;
+    
+}.sm-box a{
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+.sm-box img{
+     height: 5em;
+    width:7em;
+}
+
+
+
+
+}
+/****************************
+DESKTOP (SIMPLE) (768px +)
+****************************/
+
+@media only screen and (min-device-width:48em) {
+    nav{
+        margin-right: 0px;
+    }
+     nav a{
+         
+      // color: pink;
+        margin-left: 50px;
+    }
+    
+.sm-box{
+    display: inline-block;
+    border: black solid 1px;
+    height: 15em;
+    width: 14em;
+    padding: 1em 0 0 0;
+    margin: 1em;
+    
+}.sm-box a{
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+.sm-box img{
+    height: 10em;
+    width:10em;
+}
+    
+    
+}

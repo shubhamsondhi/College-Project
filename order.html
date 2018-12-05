@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+        
+    <title>Design</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900" rel="stylesheet">
+    </head>
+    <body>
+       <div id="containor">
+     
+           <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="about.html">About</a></li>  
+            </ul>
+            
+        </nav>
+ 
+     <div class="containor">
+     <div class="form">
+           <h1>Order your Soap</h1>
+            <form method="post" action="http://webdevbasics.net/scripts/demo.php" id="form1">
+              <fieldset>
+    <legend>Dilvery Information:</legend>
+    <label for="name">Name</label><br>
+    <input type="text"   name="firstname" required><br>
+    <label for="address">   Address</label><br>
+    <input type="text"  name="addr" required><br>
+    <label for="city">  City</label><br>
+    <input type="text"  name="city" required><br>
+    <label for="province">   Province</label><br>
+    <input type="text"  name="province" required ><br>
+    <label for="post">   Postal Code</label><br>
+    <input type="text"  name="postcode" required ><br>
+    <label for="phone">  Phone</label><br>
+    <input type="tel"  name="phone" required ><br>
+    <label for="email">   Email</label><br>
+    <input type="email" name="email" required ><br>
+    
+  </fieldset>
+              <fieldset>
+    <legend>Serving Options</legend>
+                
+                Cone or Bowl?<br>
+                <input type="radio" name="waff" value="traditional_cone">
+                  <label for="traditionalcone">Traditional cone</label>
+                <input type="radio" name="waff" value="waffle_cone"><label for="waffle_cone">Waffle Cone</label>
+                  <input type="radio" name="waff" value="waffle_bowl"><label for="waffle_bowl">Waffle Bowl   </label>
+                <br>
+                How Many Scoops?:
+                   <label class="label">
+                   <select name="scoops"  required>
+                    <option value="1">1 scoops</option>
+                    <option value="2">2 scoops</option>
+                    <option value="3">3 scoops</option>
+                    
+                    
+                </select></label>
+                </fieldset>
+              <fieldset>
+                     <legend>Top it up!</legend>
+                     
+                     Pick your toppings<br><br>
+
+<input type="checkbox" name="cookie"> Cookie Dough<br>
+<input type="checkbox" name="chocolate">Chocolate Chips<br>
+<input type="checkbox" name="gummy">Gummy Bears<br>
+<input type="checkbox" name="sprinkles">Sprinkles<br>
+<input type="checkbox" name="skor">Skor Bits<br>
+<input type="checkbox" name="strawberries">Strawberries<br>
+
+                     
+                     
+                     
+                     
+                     </fieldset>
+             <input type="submit"  class="order" name="sub" value="Order Now">
+</form> 
+           
+       </div> 
+      </div>
+ 
+       </div>
+       
+       <footer>
+          <small>&copy; 2016 Ice Cream To-Go</small> 
+           
+       </footer>
+       
+       </body>
+       </html>
